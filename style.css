@@ -30,7 +30,7 @@
     font-weight: 700;
     text-decoration: none;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 /* Header */
@@ -70,4 +70,41 @@ header{
     text-decoration: none;
     color: #575757;
     font-size: 16px;
+}
+
+/* Hero section */
+
+.hero{
+    padding: 130px 100px 90px;
+    background-image:
+        linear-gradient(0deg, transparent 75%, rgba(0, 0, 0, 0.9) 0%),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, transparent 65%),
+        url('./assets/banner.jpg');
+    background-size: contain;
+    background-position: center;
+}
+.hero-content{
+    max-width: 60%;
+}
+.hero-content h2{
+    font-family: 'Inter';
+    font-size: 80px;
+    color: #ffffff;
+    letter-spacing: -3.2px;
+    line-height: 80px;
+}
+.hero-content p{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 24px;
+    margin: 20px 100px 300px;
+}
+.hero-content .fill-btn{
+    display: inline-block;
+    padding: 15px 40px !important;
+}
+.hero-content .fill-btn a{
+    font-size: 18px;
 }
