@@ -165,3 +165,268 @@ header{
     color: #575757;
     font-weight: 400;
 }
+
+/* Pricing Section */
+.pricing-container{
+    margin: 0px 60px 80px;
+}
+
+.pricing .section-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0D1B2A;
+    line-height: 60px;
+    text-align: center;
+}
+.pricing .section-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #575757;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.pricing-card {
+    max-width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 48px 60px 0;
+}
+.p-card-single{
+    min-width: 270px;
+    padding: 32px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+}
+.p-card-dark{
+    background-color: #0D1B2A;
+}
+.p-card-single .card-title{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19.5px;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+    color: #888888;
+}
+.p-card-dark .card-title{
+    color: #93C5FD;
+}
+.p-card-single .card-price{
+    font-size: 44px;
+    font-weight: 700;
+    color: #0d1b2a;
+}
+.p-card-dark .card-price{
+    color: #ffffff;
+}
+.p-card-single .card-subtitle{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #888888;
+}
+.p-card-dark .card-subtitle{
+    color: #d5d5d5;
+}
+
+.p-card-single hr{
+    width: 100%;
+    border: 0.5px solid #E5E7EB;
+    margin: 20px 0;
+}
+
+.p-card-dark hr{
+    border: 0.5px solid #707070;
+}
+.p-card-single ul{
+    padding: 0;
+}
+.p-card-single ul .blue-dot{
+    font-size: 16px;
+    color: #2563EB;
+    margin-right: 5px;
+}
+.p-card-single ul li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    list-style: none;
+    color: #333333;
+    text-align: left;
+    margin-bottom: 7px;
+}
+
+.p-card-dark ul li{
+    color: #d5d5d5;
+}
+
+.outline-btn{
+    display: block;
+    text-align: center;
+    padding: 11px 0;
+    border: 1px solid #2563eb;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.p-card-dark .outline-btn{
+    background-color: #2563EB;
+}
+.outline-btn:hover{
+    transform: translateY(-5px);
+}
+.outline-btn a{
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #2563eb;
+}
+
+.p-card-dark .outline-btn a{
+    color: #ffffff;
+}
+.grey-btn{
+    border: 1px solid #0D1B2A;
+}
+.grey-btn a {
+    color: #0D1B2A;
+}
+
+/* Conference schedule */
+.schedule {
+    padding: 80px 60px;
+    background-color: #F8FAFC;
+}
+
+.schedule-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.schedule-eyebrow {
+    margin: 0;
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+
+.schedule .section-title {
+    margin: 12px 0;
+    color: #0D1B2A;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.schedule-intro {
+    max-width: 620px;
+    margin: 0 auto;
+    color: #575757;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    margin: 40px auto 0;
+}
+
+.schedule-day {
+    margin: 0;
+    padding: 28px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+}
+
+.schedule-day-featured {
+    border-color: #0D1B2A;
+    background-color: #0D1B2A;
+}
+
+.schedule-day-label {
+    margin: 0 0 10px;
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.schedule-day h3 {
+    margin: 0 0 24px;
+    color: #0D1B2A;
+    font-size: 21px;
+}
+
+.schedule-day-featured h3 {
+    color: #FFFFFF;
+}
+
+.schedule-session {
+    display: flex;
+    gap: 16px;
+    align-items: baseline;
+    margin: 0;
+    padding: 14px 0;
+    border-top: 1px solid #E5E7EB;
+}
+
+.schedule-day-featured .schedule-session {
+    border-color: #334155;
+}
+
+.schedule-session time {
+    flex: 0 0 48px;
+    margin: 0;
+    color: #2563EB;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.schedule-session p {
+    margin: 0;
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.schedule-day-featured .schedule-session p {
+    color: #D5D5D5;
+}
+
+.schedule-note {
+    margin: 24px 0 0;
+    color: #888888;
+    font-size: 13px;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .schedule {
+        padding: 64px 32px;
+    }
+
+    .schedule-grid {
+        grid-template-columns: 1fr;
+        max-width: 560px;
+    }
+}
+
+@media (max-width: 600px) {
+    .schedule {
+        padding: 48px 20px;
+    }
+
+    .schedule .section-title {
+        font-size: 34px;
+    }
+}
